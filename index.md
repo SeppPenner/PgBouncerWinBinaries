@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+PgBouncerWinBinaries
+====================================
 
-You can use the [editor on GitHub](https://github.com/SeppPenner/PgBouncerWinBinaries/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+PgBouncerWinBinaries is a project to host pre-built Windows binaries of the [pgBouncer](https://www.pgbouncer.org/) project.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[![Build status](https://ci.appveyor.com/api/projects/status/502wxfe78xcfihm9?svg=true)](https://ci.appveyor.com/project/SeppPenner/pgbouncerwinbinaries)
+[![GitHub issues](https://img.shields.io/github/issues/SeppPenner/PgBouncerWinBinaries.svg)](https://github.com/SeppPenner/PgBouncerWinBinaries/issues)
+[![GitHub forks](https://img.shields.io/github/forks/SeppPenner/PgBouncerWinBinaries.svg)](https://github.com/SeppPenner/PgBouncerWinBinaries/network)
+[![GitHub stars](https://img.shields.io/github/stars/SeppPenner/PgBouncerWinBinaries.svg)](https://github.com/SeppPenner/PgBouncerWinBinaries/stargazers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://raw.githubusercontent.com/SeppPenner/PgBouncerWinBinaries/master/License.txt)
+[![Known Vulnerabilities](https://snyk.io/test/github/SeppPenner/PgBouncerWinBinaries/badge.svg)](https://snyk.io/test/github/SeppPenner/PgBouncerWinBinaries)
+[![Gitter](https://badges.gitter.im/PgBouncerWinBinaries/community.svg)](https://gitter.im/PgBouncerWinBinaries/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-### Markdown
+Still work in progress.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+## Downloads
+* 1.0: [Download](https://www.example.com).
 
-# Header 1
-## Header 2
-### Header 3
+## How to build it on your own binary
+1. 
 
-- Bulleted
-- List
+## Further links
+* https://www.pgbouncer.org/
+* https://github.com/pgbouncer/pgbouncer
+* https://stackoverflow.com/questions/37925410/how-to-install-pgbouncer-on-windows-7-x64
+* http://winpg.jp/~saito/pgbouncer/
 
-1. Numbered
-2. List
+Change history
+--------------
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SeppPenner/PgBouncerWinBinaries/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* **Version 1.0.0.0 (2019-11-28)** : 1.0 release.
