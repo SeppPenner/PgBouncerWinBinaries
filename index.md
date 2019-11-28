@@ -8,7 +8,6 @@ PgBouncerWinBinaries is a project to host pre-built Windows binaries of the [pgB
 [![GitHub forks](https://img.shields.io/github/forks/SeppPenner/PgBouncerWinBinaries.svg)](https://github.com/SeppPenner/PgBouncerWinBinaries/network)
 [![GitHub stars](https://img.shields.io/github/stars/SeppPenner/PgBouncerWinBinaries.svg)](https://github.com/SeppPenner/PgBouncerWinBinaries/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://raw.githubusercontent.com/SeppPenner/PgBouncerWinBinaries/master/License.txt)
-[![Known Vulnerabilities](https://snyk.io/test/github/SeppPenner/PgBouncerWinBinaries/badge.svg)](https://snyk.io/test/github/SeppPenner/PgBouncerWinBinaries)
 [![Gitter](https://badges.gitter.im/PgBouncerWinBinaries/community.svg)](https://gitter.im/PgBouncerWinBinaries/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 Still work in progress.
