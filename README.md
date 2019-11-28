@@ -1,7 +1,7 @@
 PgBouncerWinBinaries
 ====================================
 
-PgBouncerWinBinaries is a project to host pre-built Windows binaries of the [pgBouncer](https://www.pgbouncer.org/) project.
+PgBouncerWinBinaries is a project to host pre-built Windows binaries of the [pgBouncer](https://www.pgbouncer.org/) project. The page can be viewed under https://sepppenner.github.io/PgBouncerWinBinaries/.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/502wxfe78xcfihm9?svg=true)](https://ci.appveyor.com/project/SeppPenner/pgbouncerwinbinaries)
 [![GitHub issues](https://img.shields.io/github/issues/SeppPenner/PgBouncerWinBinaries.svg)](https://github.com/SeppPenner/PgBouncerWinBinaries/issues)
