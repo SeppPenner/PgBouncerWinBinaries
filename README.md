@@ -1,7 +1,7 @@
 PgBouncerWinBinaries
 ====================================
 
-PgBouncerWinBinaries is a project to host pre-built Windows binaries of the [pgBouncer](https://www.pgbouncer.org/) project. The page can be viewed under https://sepppenner.github.io/PgBouncerWinBinaries/.
+PgBouncerWinBinaries is a project to host pre-built Windows binaries of the [pgBouncer](https://www.pgbouncer.org/) project. The page can be viewed under [https://sepppenner.github.io/PgBouncerWinBinaries/](https://sepppenner.github.io/PgBouncerWinBinaries/).
 
 [![Build status](https://ci.appveyor.com/api/projects/status/502wxfe78xcfihm9?svg=true)](https://ci.appveyor.com/project/SeppPenner/pgbouncerwinbinaries)
 [![GitHub issues](https://img.shields.io/github/issues/SeppPenner/PgBouncerWinBinaries.svg)](https://github.com/SeppPenner/PgBouncerWinBinaries/issues)
@@ -13,21 +13,21 @@ PgBouncerWinBinaries is a project to host pre-built Windows binaries of the [pgB
 Still work in progress, there is an error at the moment: Check [this issue](https://github.com/pgbouncer/pgbouncer/issues/442) on Github.
 
 ## Downloads
-* 1.12.0: [Download](/Downloads_Saito/pgbouncer-1.12.0-win-x64.zip).
-* 1.9.0: [Download](/Downloads_Saito/pgbouncer-1.9.0-win32.zip).
-* 1.8.1: [Download](/Downloads_Saito/pgbouncer-1.8.1-win32.zip).
-* 1.7.2: [Download](/Downloads_Saito/pgbouncer-1.7.2-win32.zip).
-* 1.7.1: [Download](/Downloads_Saito/pgbouncer-1.7.1-win32.zip).
-* 1.6.1: [Download](/Downloads_Saito/pgbouncer-1.6.1-win32.zip).
-* 1.5.5: [Download](/Downloads_Saito/pgbouncer-1.5.5-win32.zip).
-* 1.5.4: [Download](/Downloads_Saito/pgbouncer-1.5.4-win32.zip).
-* 1.5.3: [Download](/Downloads_Saito/pgbouncer-1.5.3-win32.zip).
-* 1.5.2: [Download](/Downloads_Saito/pgbouncer-1.5.2-win32.zip).
-* 1.5.0: [Download](/Downloads_Saito/pgbouncer-1.5-win32.zip).
-* 1.4.2: [Download](/Downloads_Saito/pgbouncer-1.4.2-win32.zip).
-* 1.4.0: [Download](/Downloads_Saito/pgbouncer-1.4-win32.zip).
-* 1.3.4: [Download](/Downloads_Saito/pgbouncer-1.3.4-win32.zip).
-* 1.3.3: [Download](/Downloads_Saito/pgbouncer-1.3.3-win32.zip).
+* 1.12.0: [Download](/Downloads_Saito/pgbouncer-1.12.0-win-x64.zip)
+* 1.9.0: [Download](/Downloads_Saito/pgbouncer-1.9.0-win32.zip)
+* 1.8.1: [Download](/Downloads_Saito/pgbouncer-1.8.1-win32.zip)
+* 1.7.2: [Download](/Downloads_Saito/pgbouncer-1.7.2-win32.zip)
+* 1.7.1: [Download](/Downloads_Saito/pgbouncer-1.7.1-win32.zip)
+* 1.6.1: [Download](/Downloads_Saito/pgbouncer-1.6.1-win32.zip)
+* 1.5.5: [Download](/Downloads_Saito/pgbouncer-1.5.5-win32.zip)
+* 1.5.4: [Download](/Downloads_Saito/pgbouncer-1.5.4-win32.zip)
+* 1.5.3: [Download](/Downloads_Saito/pgbouncer-1.5.3-win32.zip)
+* 1.5.2: [Download](/Downloads_Saito/pgbouncer-1.5.2-win32.zip)
+* 1.5.0: [Download](/Downloads_Saito/pgbouncer-1.5-win32.zip)
+* 1.4.2: [Download](/Downloads_Saito/pgbouncer-1.4.2-win32.zip)
+* 1.4.0: [Download](/Downloads_Saito/pgbouncer-1.4-win32.zip)
+* 1.3.4: [Download](/Downloads_Saito/pgbouncer-1.3.4-win32.zip)
+* 1.3.3: [Download](/Downloads_Saito/pgbouncer-1.3.3-win32.zip)
 
 ## How to build your own binary
 1. Download Ubuntu or a similar Linux system: [Ubuntu Desktop](https://ubuntu.com/download/desktop).
