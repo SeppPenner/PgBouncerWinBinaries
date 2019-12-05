@@ -13,7 +13,7 @@ PgBouncerWinBinaries is a project to host pre-built Windows binaries of the [pgB
 Still work in progress, there is an error at the moment: Check [this issue](https://github.com/pgbouncer/pgbouncer/issues/442) on Github.
 
 ## Downloads
-* 1.12.0: [Download](/Downloads_Saito/pgbouncer-1.12.0-win32.zip).
+* 1.12.0: [Download](/Downloads_Saito/pgbouncer-1.12.0-win-x64.zip).
 * 1.9.0: [Download](/Downloads_Saito/pgbouncer-1.9.0-win32.zip).
 * 1.8.1: [Download](/Downloads_Saito/pgbouncer-1.8.1-win32.zip).
 * 1.7.2: [Download](/Downloads_Saito/pgbouncer-1.7.2-win32.zip).
