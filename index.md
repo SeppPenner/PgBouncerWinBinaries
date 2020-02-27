@@ -35,9 +35,9 @@ Still work in progress, there is an error at the moment: Check [this issue](http
 3. In the MinGW installation manager install all packages (You can only install the relevant ones listed under [https://www.pgbouncer.org/install.html](https://www.pgbouncer.org/install.html), but this didn't work for me.
 4. Open the MinGW shell.
 5. Eventually you need to install libevent manually:
-    1. Download latest version from [https://github.com/libevent/libevent/releases/](https://github.com/libevent/libevent/releases/).
-    2. Unzip it and go to the libevent folder. e.g. `C:\PGBouncerForBuilding\libevent-2.1.11-stable`.
-    3. Compile and install it:
+    * Download latest version from [https://github.com/libevent/libevent/releases/](https://github.com/libevent/libevent/releases/).
+    * Unzip it and go to the libevent folder. e.g. `C:\PGBouncerForBuilding\libevent-2.1.11-stable`.
+    * Compile and install it:
 
         ```bash
         ./configure
