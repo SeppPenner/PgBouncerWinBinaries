@@ -36,34 +36,34 @@ Still work in progress, there is an error at the moment: Check [this issue](http
 3. In the MinGW installation manager install all packages (You can only install the relevant ones listed under [https://www.pgbouncer.org/install.html](https://www.pgbouncer.org/install.html), but this didn't work for me.
 4. Open the MinGW shell.
 5. Eventually you need to install libevent manually:
-    * Download latest version from [https://github.com/libevent/libevent/releases/](https://github.com/libevent/libevent/releases/).
-    * Unzip it and go to the libevent folder. e.g. `C:\PGBouncerForBuilding\libevent-2.1.11-stable`.
-    * Compile and install it:
+    1. Download latest version from [https://github.com/libevent/libevent/releases/](https://github.com/libevent/libevent/releases/).
+    2. Unzip it and go to the libevent folder. e.g. `C:\PGBouncerForBuilding\libevent-2.1.11-stable`.
+    3. Compile and install it:
 
-```bash
-./configure
-make
-make install && make clean
-```
+        ```bash
+        ./configure
+        make
+        make install && make clean
+        ```
 
 6. Go to your root folder, e.g. `C:\PGBouncerForBuilding`.
 7. Clone the git repository to your folder using:
 
-```bash
-git clone https://github.com/pgbouncer/pgbouncer.git
-cd pgbouncer
-git submodule init
-git submodule update
-```
+    ```bash
+    git clone https://github.com/pgbouncer/pgbouncer.git
+    cd pgbouncer
+    git submodule init
+    git submodule update
+    ```
 
 8. Compile for Windows using:
 
-```bash
-./autogen.sh
-./configure ...
-make
-make install
-```
+    ```bash
+    ./autogen.sh
+    ./configure ...
+    make
+    make install
+    ```
 
 ## Further links
 * [https://www.pgbouncer.org/](https://www.pgbouncer.org/)
