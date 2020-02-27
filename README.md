@@ -33,13 +33,13 @@ Still work in progress, there is an error at the moment: Check [this issue](http
 ## How to build your own binary
 1. Create a folder like `C:\PGBouncerForBuilding`. Don't use special chars or empty spaces or stuff like that.
 2. Download and install [MinGW](http://www.mingw.org/).
-3. In the MinGW installation manager install all packages (You can only install the relevant ones listed under https://www.pgbouncer.org/install.html, but this didn't work for me.
+3. In the MinGW installation manager install all packages (You can only install the relevant ones listed under [https://www.pgbouncer.org/install.html](https://www.pgbouncer.org/install.html), but this didn't work for me.
 4. Open the MinGW shell.
 5. Eventually you need to install libevent manually:
 
-5.1 Download latest version from https://github.com/libevent/libevent/releases/.
-5.2 Unzip it and go to the libevent folder. e.g. `C:\PGBouncerForBuilding\libevent-2.1.11-stable`.
-5.3 Compile and install it:
+    1. Download latest version from [https://github.com/libevent/libevent/releases/](https://github.com/libevent/libevent/releases/).
+    2. Unzip it and go to the libevent folder. e.g. `C:\PGBouncerForBuilding\libevent-2.1.11-stable`.
+    3. Compile and install it:
 
 ```bash
 ./configure
