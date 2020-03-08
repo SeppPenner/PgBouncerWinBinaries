@@ -33,8 +33,9 @@ Still work in progress, there is an error at the moment: Check [this issue](http
 1. Create a folder like `C:\PGBouncerForBuilding`. Don't use special chars or empty spaces or stuff like that.
 2. Download and install [MinGW](http://www.mingw.org/).
 3. In the MinGW installation manager install all packages (You can only install the relevant ones listed under [https://www.pgbouncer.org/install.html](https://www.pgbouncer.org/install.html), but this didn't work for me.
-4. Open the MinGW shell.
-5. Eventually you need to install libevent manually:
+4. Follow the steps under [https://stackoverflow.com/questions/1710922/how-to-install-pkg-config-in-windows](https://stackoverflow.com/questions/1710922/how-to-install-pkg-config-in-windows) to include `pkg-config`.
+5. Open the MinGW shell.
+6. Eventually you need to install libevent manually:
     * Download latest version from [https://github.com/libevent/libevent/releases/](https://github.com/libevent/libevent/releases/).
     * Unzip it and go to the libevent folder. e.g. `C:\PGBouncerForBuilding\libevent-2.1.11-stable`.
     * Compile and install it:
@@ -45,8 +46,8 @@ Still work in progress, there is an error at the moment: Check [this issue](http
         make install && make clean
         ```
 
-6. Go to your root folder, e.g. `C:\PGBouncerForBuilding`.
-7. Clone the git repository to your folder using:
+7. Go to your root folder, e.g. `C:\PGBouncerForBuilding`.
+8. Clone the git repository to your folder using:
 
     ```bash
     git clone https://github.com/pgbouncer/pgbouncer.git
@@ -55,7 +56,7 @@ Still work in progress, there is an error at the moment: Check [this issue](http
     git submodule update
     ```
 
-8. Compile for Windows using:
+9. Compile for Windows using:
 
     ```bash
     ./autogen.sh
@@ -75,6 +76,7 @@ Still work in progress, there is an error at the moment: Check [this issue](http
 * [https://www.aerospike.com/docs/client/libevent/build/windows.html](https://www.aerospike.com/docs/client/libevent/build/windows.html)
 * [https://github.com/libevent/libevent/releases/](https://github.com/libevent/libevent/releases/)
 * [https://www.quora.com/What-are-some-ways-of-installing-libevent](https://www.quora.com/What-are-some-ways-of-installing-libevent)
+* [https://stackoverflow.com/questions/1710922/how-to-install-pkg-config-in-windows](https://stackoverflow.com/questions/1710922/how-to-install-pkg-config-in-windows)
 
 Change history
 --------------
