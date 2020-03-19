@@ -44,6 +44,8 @@ Still work in progress, there is an error at the moment: Check [this issue](http
     pacman -S msys/automake-wrapper
 	pacman -S msys/pkg-config
 	pacman -S base-devel gcc cmake
+	pacman -S msys/libevent-devel
+	# Not sure if these are really needed:
 	pacman -S mingw-w64-x86_64-libevent
     pacman -S mingw-w64-x86_64-pkg-config
     pacman -S mingw-w64-x86_64-gcc
