@@ -11,7 +11,7 @@ The page can be viewed under [https://sepppenner.github.io/PgBouncerWinBinaries/
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://raw.githubusercontent.com/SeppPenner/PgBouncerWinBinaries/master/License.txt)
 [![Gitter](https://badges.gitter.im/PgBouncerWinBinaries/community.svg)](https://gitter.im/PgBouncerWinBinaries/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-Still work in progress, there is an error at the moment: Check [this issue](https://github.com/pgbouncer/pgbouncer/issues/442) on Github.
+Still work in progress, I don't know where to get `pgbevent.dll` at the moment. There is also an issue with pandoc in the development state: Check [this response](https://github.com/pgbouncer/pgbouncer/issues/442#issuecomment-601126287) on Github for a workaround.
 
 ## Downloads built by me:
 * 1.12.0: [Download](/Downloads/pgbouncer-1.12.0-win-x64.zip)
@@ -59,8 +59,10 @@ Still work in progress, there is an error at the moment: Check [this issue](http
     * Add `C:\msys64\mingw64\bin` and `C:\msys64\mingw32\bin`, in that order, to your PATH variable.
 	* Note that MSYS2 also puts a lot of other tools in this directory, most notably Python. So put these entries below any other tools you might have installed in your PATH.
 
-7. Go to your root folder, e.g. `C:\PGBouncerForBuilding`.
-8. Clone the git repository to your folder using:
+7. Install pandoc from [https://pandoc.org/installing.html](https://pandoc.org/installing.html).
+8. Add `C:\Program Files\Pandoc` to the `PATH` environment variable.
+9. Go to your root folder, e.g. `C:\PGBouncerForBuilding`.
+10. Clone the git repository to your folder using:
 
     ```bash
     git clone https://github.com/pgbouncer/pgbouncer.git
@@ -69,7 +71,7 @@ Still work in progress, there is an error at the moment: Check [this issue](http
     git submodule update
     ```
 
-9. Compile for Windows using:
+11. Compile for Windows using:
 
     ```bash
     ./autogen.sh
@@ -77,6 +79,24 @@ Still work in progress, there is an error at the moment: Check [this issue](http
     make
     make install
     ```
+
+12. Hint: I have no idea if the installation step for Pandoc is needed or not. If you get errors with Pandoc, don't pull pgbouncer from Git, but download a release from [https://github.com/pgbouncer/pgbouncer/releases](https://github.com/pgbouncer/pgbouncer/releases).
+13. Unzip the release to a folder, e.g. `C:\PGBouncerForBuilding` and go to this directory.
+14. Run the following commands:
+
+    ```bash
+	cd pgbouncer-1.12.0 # Adjust this if your release is different.
+    ./autogen.sh
+    ./configure ...
+    make
+    make install
+    ```
+15. Your generated files are located under `C:\msys64\usr\share\doc\pgbouncer` and `C:\msys64\usr\bin` (If you installed everything in the default directories).
+16. The files you need are:
+    * pgbevent.dll (I have no idea where to get this one)?
+    * pgbouncer.exe
+	* pgbouncer.ini or config.ini or similar
+	* users.txt or userslist.txt or similar
 
 ## Further links
 * [https://www.pgbouncer.org/](https://www.pgbouncer.org/)
@@ -92,6 +112,7 @@ Still work in progress, there is an error at the moment: Check [this issue](http
 * [https://github.com/orlp/dev-on-windows/wiki/Installing-GCC--&-MSYS2](https://github.com/orlp/dev-on-windows/wiki/Installing-GCC--&-MSYS2)
 * [https://feaforall.com/install-c-language-gcc-compiler-windows/](https://feaforall.com/install-c-language-gcc-compiler-windows/)
 * [https://stackoverflow.com/questions/33398574/cant-compile-pgbouncer-neither-in-linux-nor-in-windows](https://stackoverflow.com/questions/33398574/cant-compile-pgbouncer-neither-in-linux-nor-in-windows)
+* [https://github.com/pgbouncer/pgbouncer/issues/463](https://github.com/pgbouncer/pgbouncer/issues/463)
 
 ## Further links (Not so relevant)
 * [https://www.aerospike.com/docs/client/libevent/build/windows.html](https://www.aerospike.com/docs/client/libevent/build/windows.html)
