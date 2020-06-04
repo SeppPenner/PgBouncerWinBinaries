@@ -125,6 +125,4 @@ Still work in progress, I don't know where to get `pgbevent.dll` at the moment. 
 Change history
 --------------
 
-* **Version 1.0.0.1 (2020-03-19)** : Updated build description.
-* **Version 1.0.0.1 (2020-02-27)** : Updated description.
-* **Version 1.0.0.0 (2019-12-05)** : 1.0 release.
+See the [Changelog](https://github.com/SeppPenner/PgBouncerWinBinaries/blob/master/Changelog.md).
