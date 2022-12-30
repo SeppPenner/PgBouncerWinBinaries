@@ -14,7 +14,7 @@ The page can be viewed under [https://sepppenner.github.io/PgBouncerWinBinaries/
 Still work in progress, I don't know where to get `pgbevent.dll` at the moment. There is also an issue with pandoc in the development state: Check [this response](https://github.com/pgbouncer/pgbouncer/issues/442#issuecomment-601126287) on Github for a workaround.
 
 ## Downloads built by me:
-* 1.12.0: [Download](/Downloads/pgbouncer-1.12.0-win-x64.zip)
+* 1.12.0: [Download](/Downloads/pgbouncer-1.12.0-win-x64.zip) --> Still has the issue under https://github.com/SeppPenner/PgBouncerWinBinaries/issues/1 meaning that it is not statically linked with msys libraries, so the user using it will not be able to run it unless he has msys installed.
 
 ## Downloads from Saito:
 * 1.12.0: [Download](/Downloads_Saito/pgbouncer-1.12.0-win-x64.zip)
