@@ -115,6 +115,7 @@ Still work in progress, I don't know where to get `pgbevent.dll` at the moment. 
 * [https://github.com/pgbouncer/pgbouncer/issues/463](https://github.com/pgbouncer/pgbouncer/issues/463)
 * [https://github.com/pgbouncer/pgbouncer/issues/473](https://github.com/pgbouncer/pgbouncer/issues/473)
 * [https://github.com/pgbouncer/pgbouncer/issues/474](https://github.com/pgbouncer/pgbouncer/issues/474)
+* [https://github.com/SeppPenner/PgBouncerWinBinaries/issues/2](https://github.com/SeppPenner/PgBouncerWinBinaries/issues/2)
 
 ## Further links (Not so relevant)
 * [https://www.aerospike.com/docs/client/libevent/build/windows.html](https://www.aerospike.com/docs/client/libevent/build/windows.html)
